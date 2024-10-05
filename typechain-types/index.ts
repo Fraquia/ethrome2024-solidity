@@ -62,7 +62,7 @@ export type { ISETH } from "./@superfluid-finance/ethereum-contracts/contracts/i
 export { ISETH__factory } from "./factories/@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/ISETH.sol/ISETH__factory";
 export type { ISETHCustom } from "./@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/ISETH.sol/ISETHCustom";
 export { ISETHCustom__factory } from "./factories/@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/ISETH.sol/ISETHCustom__factory";
-export type { Campaign } from "./contracts/Campaign_old.sol/Campaign";
-export { Campaign__factory } from "./factories/contracts/Campaign_old.sol/Campaign__factory";
-export type { CpFactory } from "./contracts/CampaignFactory_old.sol/CpFactory";
-export { CpFactory__factory } from "./factories/contracts/CampaignFactory_old.sol/CpFactory__factory";
+export type { Campaign } from "./contracts/Campaign";
+export { Campaign__factory } from "./factories/contracts/Campaign__factory";
+export type { CpFactory } from "./contracts/CampaignFactory.sol/CpFactory";
+export { CpFactory__factory } from "./factories/contracts/CampaignFactory.sol/CpFactory__factory";

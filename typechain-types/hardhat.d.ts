@@ -126,14 +126,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.Campaign__factory>;
     getContractFactory(
-      name: "Campaign",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.Campaign__factory>;
-    getContractFactory(
-      name: "CpFactory",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.CpFactory__factory>;
-    getContractFactory(
       name: "CpFactory",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.CpFactory__factory>;
@@ -279,16 +271,6 @@ declare module "hardhat/types/runtime" {
       signer?: ethers.Signer
     ): Promise<Contracts.Campaign>;
     getContractAt(
-      name: "Campaign",
-      address: string | ethers.Addressable,
-      signer?: ethers.Signer
-    ): Promise<Contracts.Campaign>;
-    getContractAt(
-      name: "CpFactory",
-      address: string | ethers.Addressable,
-      signer?: ethers.Signer
-    ): Promise<Contracts.CpFactory>;
-    getContractAt(
       name: "CpFactory",
       address: string | ethers.Addressable,
       signer?: ethers.Signer
@@ -406,14 +388,6 @@ declare module "hardhat/types/runtime" {
       name: "Campaign",
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Campaign>;
-    deployContract(
-      name: "Campaign",
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.Campaign>;
-    deployContract(
-      name: "CpFactory",
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.CpFactory>;
     deployContract(
       name: "CpFactory",
       signerOrOptions?: ethers.Signer | DeployContractOptions
@@ -559,16 +533,6 @@ declare module "hardhat/types/runtime" {
       args: any[],
       signerOrOptions?: ethers.Signer | DeployContractOptions
     ): Promise<Contracts.Campaign>;
-    deployContract(
-      name: "Campaign",
-      args: any[],
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.Campaign>;
-    deployContract(
-      name: "CpFactory",
-      args: any[],
-      signerOrOptions?: ethers.Signer | DeployContractOptions
-    ): Promise<Contracts.CpFactory>;
     deployContract(
       name: "CpFactory",
       args: any[],

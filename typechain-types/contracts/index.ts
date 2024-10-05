@@ -3,8 +3,4 @@
 /* eslint-disable */
 import type * as campaignFactorySol from "./CampaignFactory.sol";
 export type { campaignFactorySol };
-import type * as campaignFactoryOldSol from "./CampaignFactory_old.sol";
-export type { campaignFactoryOldSol };
-import type * as campaignOldSol from "./Campaign_old.sol";
-export type { campaignOldSol };
 export type { Campaign } from "./Campaign";

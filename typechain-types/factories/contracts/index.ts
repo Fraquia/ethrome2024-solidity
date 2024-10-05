@@ -2,6 +2,4 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as campaignFactorySol from "./CampaignFactory.sol";
-export * as campaignFactoryOldSol from "./CampaignFactory_old.sol";
-export * as campaignOldSol from "./Campaign_old.sol";
 export { Campaign__factory } from "./Campaign__factory";
